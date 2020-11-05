@@ -1,0 +1,133 @@
+/*for desktop*/
+/* navbar starts */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.pic {
+    text-align: left;
+    margin:0px, 10px;
+    padding:0;
+}
+.heading h1 {
+    text-align: right;
+}
+.menu {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.image {
+    height:100px;
+    border:4px double black ;
+    border-radius: 50%; 
+}
+.menu a {
+    padding: 5px 10px;
+    background-color: transparent;
+}
+.starting {
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+
+} 
+
+/* navbar ends */
+/*profile starts*/
+.profile {
+    height: 1150px;
+}
+.name {
+    margin-top: 840px;
+    margin-left: 8%;
+    color:#0C6166;
+}
+.name h1 {
+    font-size: xx-large;
+}
+/*cousre*/
+.grid {
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.cer{
+    height:250px;
+    width: 350px;;
+    
+}
+.card-body{
+    width:350px;
+    background-color:tomato;
+    color: white;
+}
+/*ends*/
+/*courses starts*/
+.course {
+    height:1150px;
+}
+/*ends*/
+/*about me*/
+.image2 {
+    height: 550px;
+    margin-top: 80px;
+    margin: -20px;
+}
+.descrip p {
+    text-align: left;
+}
+.about {
+    width: 100%;
+    height: 1100px;
+}
+.carding {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.cardo {
+    height:700px;
+    width:400px;
+}
+/* writing */
+.writings {
+    width: 100%;
+    height: 1100px;
+    background-image: url("img/bg2.jpg"); /* <span>Photo by <a href="https://unsplash.com/@draufsicht?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andreas Gücklhorn</a> on <a href="https://unsplash.com/@draufsicht?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+    
+}
+.contact {
+    height: 1000px;
+
+}
+.btn23 {
+    background-color: transparent;
+}
+.deskt {
+    display: block;
+    text-align: left;
+}
+.footer {
+    font-size: 1rem;
+}
+.footer a {
+    display: inline;
+}
+.me button {
+    width: 90%;
+}
+.me button:hover {
+    width:95%;
+    background-color: turquoise;
+}
